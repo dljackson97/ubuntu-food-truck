@@ -11,7 +11,7 @@ A simple, framework-free website:
 No build tools, no installs — open `index.html` in any browser to view it, or visit the live preview at **https://dljackson97.github.io/ubuntu-food-truck/**.
 
 ## About the content
-Photos, menu items, prices, the weekly schedule, and reviews shown here are placeholders standing in for the real thing — they'll be swapped for Ubuntu Food Truck's actual photos, menu, and details if this moves forward. The catering/event contact form is wired up but not yet fully activated.
+Menu item names, descriptions, hours, address, and the press/award mentions are real, pulled from public sources. Photos are placeholders standing in for the real thing, and pricing is intentionally left off since it isn't published anywhere public yet — both get swapped in with real details if this moves forward. The catering/event contact form is wired up but not yet fully activated.
 
 ## Questions?
 Reach out to Clementine Web Co. — devin@clementinewebco.com · (757) 504-8502

@@ -3,10 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ubuntu Food Truck — Edge District, St. Petersburg</title>
-<meta name="description" content="Ubuntu Food Truck — Best of the Bay-winning menu, served fresh in St. Petersburg's Edge District. See the menu, find the truck, book catering.">
+<title>Ubuntu Food Truck — EDGE District, St. Petersburg</title>
+<meta name="description" content="Ubuntu Food Truck's permanent EDGE District restaurant in St. Petersburg — award-winning global fusion, outdoor seating, catering. Tampa Bay Times People's Choice honoree.">
 <meta name="robots" content="noindex, nofollow">
-<!-- FREE SAMPLE MOCKUP — not the business's live site. See ../build-brief.md. -->
+<!-- FREE SAMPLE MOCKUP — not the business's live site. See ../build-brief.md.
+     Rebuilt 2026-08-11 around real research: Ubuntu opened a PERMANENT
+     restaurant location at this address in Sept. 2025 (previous mockup
+     version still framed them as truck-only). Meta title/description/OG
+     tags below are filled in deliberately — their real live site currently
+     ships an empty <title> and no Open Graph tags at all, see build-brief.md
+     "Value Prop" section. No real photography used (all placeholders,
+     flagged in-page) and no logo asset is embedded — their real logo file
+     has a visible stock-image watermark baked in, so this build uses a
+     clean typographic wordmark instead rather than ship that flaw forward. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ubuntu Food Truck — EDGE District, St. Petersburg">
+<meta property="og:description" content="Award-winning global fusion, now in a permanent EDGE District home. Outdoor seating, live music, real accolades.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +27,7 @@
 </head>
 <body>
 
-<div class="mockup-flag">Free sample site built for Ubuntu Food Truck by Clementine Web Co. — not yet live, not affiliated with the truck</div>
+<div class="mockup-flag">Free sample site built for Ubuntu Food Truck by Clementine Web Co. — not yet live, not affiliated with the restaurant</div>
 
 <a class="skip-link" href="#main">Skip to content</a>
 
@@ -28,8 +40,8 @@
     </button>
     <nav class="primary-nav" id="primaryNav">
       <a href="#menu">Menu</a>
-      <a href="#find-us">Find Us</a>
-      <a href="#press">Press</a>
+      <a href="#visit">Visit</a>
+      <a href="#press">Press &amp; Awards</a>
       <a href="#gallery">Gallery</a>
       <a href="#contact" class="nav-cta">Book Catering</a>
     </nav>
@@ -40,14 +52,17 @@
 
   <section class="hero" id="top">
     <div class="wrap">
-      <p class="hero-badge">🏆 Best of the Bay — Winning Menu</p>
-      <h1 class="text-balance">Real food, real fast,<br>right in the Edge District.</h1>
-      <p class="lede">Award-winning, press-covered, and still just a truck doing the work — come find us, or book us for your next event.</p>
+      <div class="hero-badges">
+        <span class="hero-badge">🏆 TB Times People's Choice — Silver</span>
+        <span class="hero-badge">🌶️ Best of the Bay — Wings Winner</span>
+      </div>
+      <h1 class="text-balance">Global fusion, now with<br>a permanent home.</h1>
+      <p class="lede">Three-plus years as St. Pete's most-talked-about food truck, now a real sit-down spot in the EDGE District — outdoor seating, live music, and the same menu that's been racking up awards since day one.</p>
       <div class="hero-actions">
         <a href="#menu" class="btn btn-primary">See the Menu</a>
-        <a href="#find-us" class="btn btn-ghost">Find the Truck</a>
+        <a href="#visit" class="btn btn-ghost">Hours &amp; Location</a>
       </div>
-      <p class="hero-note"><!-- PLACEHOLDER — confirm real hours/schedule during research --> 1720 Central Ave, Edge District, St. Petersburg, FL</p>
+      <p class="hero-note">1720 Central Ave, St. Petersburg, FL 33712 · EDGE District · Now open daily</p>
     </div>
   </section>
 
@@ -55,70 +70,132 @@
     <div class="wrap">
       <p class="eyebrow">Menu</p>
       <h2 class="text-balance reveal">What's cooking.</h2>
-      <div class="price-grid">
-        <div class="price-card reveal">
-          <h3>Signature Plate</h3>
-          <p class="price-amount"><!-- PLACEHOLDER pricing — confirm real menu/pricing -->$13</p>
-          <p>The one that won us Best of the Bay.</p>
+      <p class="lede reveal">Signature dish names and descriptions are real — current pricing isn't published anywhere online yet, so it's intentionally left off here rather than guessed. Full priced menu goes up once confirmed (Phase 2).</p>
+      <div class="menu-grid">
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>The Rapture&reg;</h3>
+            <span class="tag tag-award">Signature</span>
+          </div>
+          <p>Shaved ribeye, bacon, and pepperjack on a pretzel bun, finished with house-made Bacon Rapture Sauce — trademarked for a reason.</p>
         </div>
-        <div class="price-card reveal">
-          <h3>Loaded Bowl</h3>
-          <p class="price-amount">$11</p>
-          <p>Fresh, filling, made to order.</p>
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>Wings</h3>
+            <span class="tag tag-award">Best of the Bay Winner</span>
+          </div>
+          <p>The wings that won it. Ask what's on rotation.</p>
         </div>
-        <div class="price-card reveal">
-          <h3>Street Side</h3>
-          <p class="price-amount">$6</p>
-          <p>The perfect add-on.</p>
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>Coconut Curry Crab Rangoon</h3>
+          </div>
+          <p>Crispy, creamy, unmistakably Ubuntu — where the fusion menu shows off.</p>
         </div>
-        <div class="price-card reveal">
-          <h3>Cold Drink</h3>
-          <p class="price-amount">$3</p>
-          <p>Cold, simple, necessary.</p>
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>Golden Cloud Noodles</h3>
+          </div>
+          <p>A house favorite worth asking about by name.</p>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>Indo Pork Belly Tacos</h3>
+          </div>
+          <p>Indonesian-inspired, street-taco format — crispy pork belly done right.</p>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>Impossible Empanadas</h3>
+            <span class="tag tag-veg">Vegan</span>
+          </div>
+          <p>Plant-based and proof that "vegan option" doesn't mean an afterthought here.</p>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>Clucked Up "Chicken" Sandwich</h3>
+            <span class="tag tag-veg">Vegan</span>
+          </div>
+          <p>Tempeh-based, built to satisfy the craving without the chicken.</p>
+        </div>
+        <div class="menu-card reveal">
+          <div class="menu-card-top">
+            <h3>Truffle Fries</h3>
+          </div>
+          <p>The move if you're sharing. (You won't want to.)</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="find-us">
+  <section id="visit">
     <div class="wrap">
-      <p class="eyebrow">Find the Truck</p>
-      <h2 class="text-balance reveal">Where we'll be this week.</h2>
-      <p class="lede reveal"><!-- PLACEHOLDER schedule — do not fabricate real stop locations/times, confirm with owner --> Real weekly stops go here once confirmed. Sample structure below.</p>
-      <table class="schedule-table reveal">
-        <tr><th>Day</th><th>Location</th><th>Hours</th></tr>
-        <tr><td>Tuesday</td><td>Edge District</td><td>11am – 3pm</td></tr>
-        <tr><td>Thursday</td><td>Downtown St. Pete</td><td>11am – 3pm</td></tr>
-        <tr><td>Friday</td><td>Grand Central District</td><td>5pm – 9pm</td></tr>
-        <tr><td>Saturday</td><td>Saturday Morning Market</td><td>9am – 1pm</td></tr>
-      </table>
+      <p class="eyebrow">Visit</p>
+      <h2 class="text-balance reveal">A real place now — come sit down.</h2>
+      <p class="lede reveal">Outdoor seating, music, and games at the EDGE District spot. Grab a table, not just a to-go bag.</p>
+      <div class="visit-block">
+        <ul class="contact-list reveal">
+          <li><a href="tel:+18573830591">(857) 383-0591</a></li>
+          <li>1720 Central Ave, St. Petersburg, FL 33712</li>
+          <li>EDGE District</li>
+        </ul>
+        <table class="hours-table reveal">
+          <!-- Hours pulled from public listings — double-check against the
+               actual posted hours by phone before this goes live, listings
+               can lag behind real-world changes. -->
+          <tr><td>Monday</td><td>11am – 6pm</td></tr>
+          <tr><td>Tuesday</td><td>11am – 2pm, 4:15 – 9pm</td></tr>
+          <tr><td>Wednesday</td><td>11am – 9pm</td></tr>
+          <tr><td>Thursday</td><td>11am – 9pm</td></tr>
+          <tr><td>Friday</td><td>11am – 2am</td></tr>
+          <tr><td>Saturday</td><td>11am – 2am</td></tr>
+          <tr><td>Sunday</td><td>12pm – 6pm</td></tr>
+        </table>
+      </div>
     </div>
   </section>
 
   <section id="press">
     <div class="wrap">
-      <p class="eyebrow">Press</p>
-      <h2 class="text-balance reveal">As seen in the Bay.</h2>
-      <div class="press-strip reveal">
-        <span class="press-chip">Creative Loafing</span>
-        <span class="press-chip">I Love The Burg</span>
-        <span class="press-chip">Best of the Bay Winner</span>
+      <p class="eyebrow">Press &amp; Awards</p>
+      <h2 class="text-balance reveal">Not just talk — it's on the record.</h2>
+      <div class="award-grid reveal">
+        <div class="award-card">
+          <p class="award-title">Tampa Bay Times</p>
+          <p class="award-sub">2025 People's Choice Awards — Silver, Food Truck category</p>
+        </div>
+        <div class="award-card">
+          <p class="award-title">Best of the Bay</p>
+          <p class="award-sub">Winner — Wings</p>
+        </div>
+        <div class="award-card">
+          <p class="award-title">Best of the Bay</p>
+          <p class="award-sub">Nominee — Best Sandwich, The Rapture&reg;</p>
+        </div>
+        <div class="award-card">
+          <p class="award-title">Currently Nominated</p>
+          <p class="award-sub">Best Food Truck — Tampa Bay Times &amp; Creative Loafing</p>
+        </div>
       </div>
-      <!-- PLACEHOLDER — swap for real quotes/links once gathered, Phase 2 item 5 -->
+      <div class="press-strip reveal">
+        <span class="press-chip">Creative Loafing Tampa</span>
+        <span class="press-chip">I Love The Burg</span>
+        <span class="press-chip">Tampa Bay Times</span>
+      </div>
     </div>
   </section>
 
   <section id="gallery">
     <div class="wrap">
       <p class="eyebrow">Gallery</p>
-      <h2 class="text-balance reveal">The food, the truck, the team.</h2>
+      <h2 class="text-balance reveal">The food, the space, the team.</h2>
       <div class="gallery-grid">
-        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Signature+Dish" alt="Placeholder — signature dish photo" loading="lazy">
-        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=The+Truck" alt="Placeholder — truck photo" loading="lazy">
-        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Loaded+Bowl" alt="Placeholder — loaded bowl photo" loading="lazy">
-        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=The+Team" alt="Placeholder — team photo" loading="lazy">
-        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Street+Side" alt="Placeholder — street side dish photo" loading="lazy">
-        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Crowd+Shot" alt="Placeholder — crowd/event photo" loading="lazy">
+        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=The+Rapture" alt="Placeholder — The Rapture sandwich photo" loading="lazy">
+        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Outdoor+Seating" alt="Placeholder — outdoor seating photo" loading="lazy">
+        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Wings" alt="Placeholder — wings photo" loading="lazy">
+        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Chef+Ray" alt="Placeholder — chef/team photo" loading="lazy">
+        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Tacos" alt="Placeholder — tacos photo" loading="lazy">
+        <img class="reveal" src="https://placehold.co/500x500/f3e4cc/7a6a57?text=Night+at+Ubuntu" alt="Placeholder — evening/event photo" loading="lazy">
       </div>
     </div>
   </section>
@@ -129,11 +206,11 @@
       <h2 class="text-balance reveal">Book us for your next event.</h2>
       <div class="contact-inner">
         <div class="reveal">
-          <p class="lede">Weddings, office lunches, block parties — send the details and we'll get back to you. For day-of questions, text or call.</p>
+          <p class="lede">Weddings, office lunches, block parties — send the details and we'll get back to you. For day-of questions, call or text.</p>
           <ul class="contact-list">
-            <li><a href="tel:+17275550163">(727) 555-0163</a></li>
-            <li><a href="mailto:hello@ubuntufoodtruck.example">hello@ubuntufoodtruck.example</a></li>
-            <li>1720 Central Ave, Edge District, St. Petersburg, FL</li>
+            <li><a href="tel:+18573830591">(857) 383-0591</a></li>
+            <li><a href="mailto:ubuntufoodtruck@gmail.com">ubuntufoodtruck@gmail.com</a></li>
+            <li>1720 Central Ave, St. Petersburg, FL 33712</li>
           </ul>
         </div>
         <!-- Contact form via Web3Forms — see build-brief.md "Primary Conversion Action."
